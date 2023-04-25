@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+.contenedor_arriba {
+  background-color: #ccc;
+  padding: 15px;
+  height: 200px;
+}
+.logotec {
+  width: 150px;
+  float: left;
+}
+.contenedor_redes {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  text-align: right;
+  padding-top: 60px;
+}
+.contenedor_redes a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px black solid;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+.contenedor_menu {
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+.contenedor_menu a {
+  background-color: #800000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.contenedor_menu a:nth-child(5) {
+  margin-right: 0;
+}
+.contenedor_slide {
+  background-image: url(imagenes/foto_tec_merida.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+  padding-top: 70px;
+}
+h1 {
+  width: 700px;
+  padding: 20px 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.contenedor_bienvenida {
+  height: 400px;
+}
+.foto_tec {
+  width: 550px;
+  float: left;
+}
+.info_bienvenida {
+  float: right;
+  width: 630px;
+  padding: 10px;
+}
+.info_bienvenida h2 {
+  color: #cc9900;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.info_bienvenida h3 {
+  color: #800000;
+}
